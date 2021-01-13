@@ -1,0 +1,20 @@
+No,Region,Proposal Date,Reff No,Product Card,Arrangement,Card No
+Customer Name,Card Open Date,Bucket,Account Status,Straight Flow
+Responsinble Collector,Area,Agency Name,Outs. Balance,Total Payment
+Down Payment,Future Payment,Payment Period,Principal,Charges
+Discount Amount,+/- From O/S Balance (%),+/- From O/S principal (%)
+Occupation,Reason,No. Of other delinguent debt,Payment Handle By
+Mapping Accounts,Justifications,Exception Level
+Authority,Approver Name,Balance to be Written Off/,Tanggal Pelunasan
+Tempat Pengambilan Surat
+
+bucket,straight_flow,area,agency_name,no_delinguent_debt,map_account,exception_level
+authority
+
+vregion,dproposal,vreffno,product,arrangement,cardno,
+custname,cardopen,bucket,f_cek_new,straight_flow,
+agent,area,agency_name,outbalance,ttlpayment,
+downpayment,futurepayment,nperiod,nprincipal,ncharge,
+ndiskon,osfrombalance,osfromprincipal,
+voccupation,vreason,no_delinguent_debt,vpaymenthandle,
+map_account,vjust,exception_level,authority,approve

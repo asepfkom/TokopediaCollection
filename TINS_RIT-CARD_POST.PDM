@@ -1,0 +1,157 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\eric hsbc
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\KPI Report Nestle\MSCOMCTL.OCX=
+C:\Windows\System32\ieframe.dll=
+C:\Program Files\KPI Report Nestle\Crystl32.OCX=
+C:\Program Files\KPI Report Nestle\MSDATGRD.OCX=
+C:\Program Files\KPI Report Nestle\MSADODC.OCX=
+C:\Program Files\KPI Report Nestle\comdlg32.ocx=
+C:\Program Files\Common Files\microsoft shared\OFFICE12\MSO.DLL=
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=
+C:\Program Files\Common Files\System\ado\msado21.tlb=
+C:\Program Files\KPI Report Nestle\MSSTDFMT.DLL=
+C:\Program Files\KPI Report Nestle\tidate6.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\System32\MSFLXGRD.OCX=
+C:\Windows\System32\MSWINSCK.OCX=
+C:\Windows\System32\MSCOMCT2.OCX=
+C:\Windows\System32\RICHTX32.OCX=
+C:\Windows\System32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\SVN\Ritcard_JAKARTA\RIT_CARD.EXE=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\KPI Report Nestle\tidate6.ocx=Yes
+C:\Windows\System32\titime6.ocx=Yes
+C:\Windows\System32\TISHARE6.DLL=Yes
+C:\Windows\System32\TIBASE6.DLL=Yes
+C:\Windows\System32\tinumb6.ocx=Yes
+C:\Windows\System32\timask6.ocx=Yes
+C:\Windows\System32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\Program Files\KPI Report Nestle\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\Program Files\Common Files\microsoft shared\OFFICE12\MSO.DLL=Yes
+C:\Program Files\Sheridan\ActiveThreed Plus\ssa3d30.ocx=Yes
+C:\Program Files\KPI Report Nestle\TABCTL32.OCX=Yes
+C:\Program Files\KPI Report Nestle\comdlg32.ocx=Yes
+C:\Windows\System32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSWINSCK.OCX=Yes
+C:\Program Files\KPI Report Nestle\MSADODC.OCX=Yes
+C:\Program Files\KPI Report Nestle\MSDATGRD.OCX=Yes
+C:\Program Files\KPI Report Nestle\Crystl32.OCX=Yes
+C:\Windows\System32\MSFLXGRD.OCX=Yes
+C:\Windows\System32\ieframe.dll=Yes
+C:\Program Files\KPI Report Nestle\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\SVN\Ritcard_JAKARTA\RIT_CARD.EXE=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\KPI Report Nestle\tidate6.ocx=$(WinSysPath)
+C:\Windows\System32\titime6.ocx=$(WinSysPath)
+C:\Windows\System32\TISHARE6.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\TIBASE6.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\tinumb6.ocx=$(WinSysPath)
+C:\Windows\System32\timask6.ocx=$(WinSysPath)
+C:\Windows\System32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Program Files\KPI Report Nestle\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=$(AppPath)
+C:\Program Files\Common Files\microsoft shared\OFFICE12\MSO.DLL=$(WinSysPath)
+C:\Program Files\Sheridan\ActiveThreed Plus\ssa3d30.ocx=$(WinSysPath)
+C:\Program Files\KPI Report Nestle\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\KPI Report Nestle\comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\KPI Report Nestle\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\KPI Report Nestle\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\KPI Report Nestle\Crystl32.OCX=$(WinSysPath)
+C:\Windows\System32\MSFLXGRD.OCX=$(WinSysPath)
+C:\Windows\System32\ieframe.dll=$(WinSysPath)
+C:\Program Files\KPI Report Nestle\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\SVN\Ritcard_JAKARTA\RIT_CARD.EXE=No
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=TINS
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=TINS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|TINS]
+Icon1=RIT_CARD.EXE
+Title1=TINS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\eric hsbc
+ProjectFolder=D:\SVN\Ritcard_JAKARTA
+ServerSideCab=
+File1=D:\eric hsbc\setup.exe
+File2=D:\eric hsbc\Setup.Lst
+File3=D:\eric hsbc\RIT_CARD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

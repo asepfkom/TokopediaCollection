@@ -1,0 +1,4 @@
+Line 76: Class MSWinsockLib.Winsock of control Winsock1 was not a loaded control class.
+Line 83: Class MSCommLib.MSComm of control mscmm was not a loaded control class.
+Line 102: Class MSCommLib.MSComm of control MSComm1 was not a loaded control class.
+Line 192: Class SHDocVwCtl.WebBrowser of control WebBrowser1 was not a loaded control class.

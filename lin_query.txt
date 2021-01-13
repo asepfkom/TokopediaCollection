@@ -1,0 +1,79 @@
+Public Function QUERY_SEARCH_mgm(M_OBJCONN As ADODB.Connection, M_WHERE As String, TIPE_PRODUK As String, F_CEK As String, f_Pending As String, strBlok As String, strBlokentry As String, strblokedmarkup As String, WO_DATE As String, STSLOCKTL As String) As Object
+Dim cmdsql As String
+Dim SYARAT As String
+Dim M_Objrs As ADODB.Recordset
+
+  
+    cmdsql = "SELECT * from mgm"
+    'CMDSQL = "SELECT CUSTID,PRIOR,NAME, NEXTACTDATE, NEXTACT, REMARKS, F_cek, AGENT,  Principal, "
+    'CMDSQL = CMDSQL + "AmountWo, OpenDate, TtlPTP, RECSOURCE, TGLSTATUS, Kethslkerja, TGLINCOMING,  AmountWo FROM mgm"
+If Len(M_WHERE) <> 0 Then
+   cmdsql = cmdsql + " WHERE " + M_WHERE
+End If
+
+ If F_CEK <> Empty Then
+    
+        cmdsql = cmdsql + " AND " + F_CEK
+'    Else
+'        SYARAT = SYARAT + " WHERE " + F_CEK
+    End If
+ 
+ If f_Pending <> Empty Then
+        cmdsql = cmdsql + " AND " + f_Pending
+ End If
+  
+ '@@Start 19 Juli 2010
+  If strBlok <> Empty Then
+    If Len(cmdsql) > 0 Then
+        cmdsql = cmdsql + " AND " + strBlok
+    Else
+        cmdsql = cmdsql + " WHERE " + strBlok
+    End If
+ End If
+ If strBlokentry <> Empty Then
+    If Len(cmdsql) > 0 Then
+        cmdsql = cmdsql + " AND " + strBlokentry
+    Else
+        cmdsql = cmdsql + " WHERE " + strBlokentry
+    End If
+ End If
+ 
+ 
+ If STSLOCKTL <> Empty Then
+ If Len(cmdsql) > 0 Then
+        cmdsql = cmdsql + " AND " + STSLOCKTL
+    Else
+        cmdsql = cmdsql + " WHERE " + STSLOCKTL
+    End If
+ 
+ End If
+ 
+  If strblokedmarkup <> Empty Then
+    If Len(SYARAT) > 0 Then
+        cmdsql = cmdsql + " AND  exclude in (" + Replace(strblokedmarkup, "@", "'") + ") "
+    Else
+        cmdsql = cmdsql + " and exclude in (" + Replace(strblokedmarkup, "@", "'") + ") "
+    End If
+ End If
+
+If WO_DATE <> Empty Then
+    If Len(SYARAT) <> 0 Then
+        SYARAT = SYARAT + " AND " + WO_DATE
+    Else
+        SYARAT = SYARAT + " WHERE " + WO_DATE
+    End If
+  
+  End If
+ 
+ '--------------- @@End 19 Juli 2010
+  
+cmdsql = cmdsql
+'ORDER BY NAME"
+    
+Set M_Objrs = New ADODB.Recordset
+M_Objrs.CursorLocation = adUseClient
+M_Objrs.Open cmdsql, M_OBJCONN, adOpenDynamic, adLockOptimistic, adCmdText
+Set QUERY_SEARCH_mgm = M_Objrs
+Set M_Objrs = Nothing
+
+End Function
